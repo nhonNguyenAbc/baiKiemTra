@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #bfc8e6;
+  position: relative;
+}
+
+#noidung {
+  position: absolute;
+  top: 50px;
+  left: 102px;
+  width: 1330px;
+  height: 660px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+}
+header {
+  margin-bottom: 50px;
+}
+header h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+}
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+ion-icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrap-header input {
+  width: 327px;
+  border-radius: 4px;
+  border: 1px solid #bfc8e5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  color: #151b32;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.navbar a span {
+  color: #fff;
+}
+.navbar li a,
+input {
+  padding: 16px;
+}
+
+.navbar-item2 {
+  background-color: #849fff;
+  border-radius: 8px;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: calc(33% - 16px);
+  height: 200px;
+  padding: 14px;
+  display: flex;
+  background-color: #fbfcff;
+  border-radius: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.card2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #bfc8e5;
+}
+
+.card img {
+  height: 97px;
+  width: 97px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.card .card-content {
+  margin-top: 20px;
+}
+.card .card-content h3 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #151b32;
+}
+
+.card .card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2px;
+  color: #151b32;
+  margin-bottom: 16px;
+}
+.content-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card .card-content span {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #bfc8e5;
+  background: #fff;
+  color: #516fd4;
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
