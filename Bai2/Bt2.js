@@ -1,4 +1,4 @@
-function veTamGiac(n) {
+function numberOneTriangle(n) {
   const tam_giac = document.getElementById("tamGiac");
   tam_giac.innerHTML = "";
 
@@ -13,4 +13,4 @@ function veTamGiac(n) {
   }
 }
 const h = prompt("Nhập chiều cao của tam giác: ");
-veTamGiac(h);
+numberOneTriangle(h);
